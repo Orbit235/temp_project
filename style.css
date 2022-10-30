@@ -1,3 +1,71 @@
-p {
-    color: blueviolet;
+
+/* 
+General styles
+ */
+ body {
+padding: 0;
+margin: 0;
+ }
+.d-flex
+{
+    display: flex;
+    }
+/* 
+Styles
+ */
+ .header-section {
+     /* background: url("les.jpg") 100% / cover; */
+ }
+
+.header-logo
+{
+    width: 50px;
+    height: 50px;
+}
+.offer-image
+{
+    width: auto;
+    height: 200px;
+}
+.bg
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    filter: blur(3px) grayscale(30%);
+}
+.main-offer
+{
+    justify-content: center;
+    align-items: center;
+}
+.offer-title
+{
+    color: aliceblue;
+}
+.header-buttons-list
+{
+display: flex;
+list-style-type: none;
+}
+.nav-item
+{
+padding-right: 10px;
+}
+.nav-link
+{
+text-decoration: none;
+color: white;
+}
+.header-navigation
+{
+    padding: 20px;
+    justify-content: space-between;
+}
+.header-nav-link
+{
+    color: white;
+    font-size: 25px;
 }
